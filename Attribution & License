@@ -1,0 +1,22 @@
+This UI is built on Tortoise TTS by James Betker (neonbjb): https://github.com/neonbjb/tortoise-tts
+
+Original license: Apache-2.0 (see LICENSE in this repo).
+
+If you use this project, please cite/credit the original Tortoise project.
+
+
+---
+
+### 📄 requirements.txt
+```txt
+# Core
+tortoise-tts>=2.7.0
+gradio>=4.0.0
+
+# Audio utils
+torchaudio>=2.1.0
+soundfile>=0.12.1
+
+# Optional: for CPU builds, install torch via PyPI (may be slow)
+# torch>=2.1.0
+# For CUDA, install a matching build from https://pytorch.org/get-started/locally/
